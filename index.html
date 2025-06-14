@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rhoda Appiah - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Rhoda Appiah
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          rappiah@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +441234567890
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="ai-generated-8775232_1280.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Rhoda Appiah! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a Data Scientist with over 5 years experience in this field. 
+            My passion to broaden my technical skills has influenced my decision to take a full stack developer course, and I'm loving it so far!
+            Excited to show you all the projects I'm working on.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="html_finalprojimages/CSS3.png"/>
+            <h6>CSS</h6>
+            <p>2 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="html_finalprojimages/node.png"/>
+            <h6>Node</h6>
+            <p>1 year experience</p>
+        </div>
+        <div class="skill">
+            <img src="html_finalprojimages/java.png"/>
+            <h6>Java</h6>
+            <p>5 years experience</p>
+        </div>
+        <div class="skill">
+            <img src="html_finalprojimages/react.png"/>
+            <h6>React</h6>
+            <p>3 years experience</p>
+        </div>
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Writing Tutor</h3>
+            <ul>
+              <li>Developed a Writing Tutor web application to analyse essays in order to provide feedback on the quality of the writeups by suggesting ways to enhance senetence structure, produce grammatically correct and contextually sound pieces.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Event Notification Application</h3>
+            <ul>
+              <li>Implemented a mobile app to enable people to find out about upcoming events in their city.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>eCommerce Website</h3>
+            <ul>
+              <li>Created a website that allows small businesses to sell their products online.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Rhoda is such a delight to work with.
+          She is always willing to help and support team members. 
+          Her diligence, positive attitude, kindness and ability to overcome any hurdle is second-to-none.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I have had the privilege of working with Rhoda and I must say, she has an amazing personality.
+          She is a problem-solver, an analtyical and detail-oriented person. Her work is exceptional!
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Rhoda is the SME in data-related and app development tasks. I've learnt so much from her.
+          She is a great leader and mentor, and very teachable too! 
+          Her excellence is evident in all the work she does.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
